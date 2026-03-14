@@ -1,5 +1,5 @@
 // ══════════════════════════════════════════════
-//  M♥S GAMER — Firebase Cloud Messaging SW
+//  M♥S Esports— Firebase Cloud Messaging SW
 //  Background Push Notifications
 //  GITHUB PE: Root mein rakhna (same folder as HTML)
 // ══════════════════════════════════════════════
@@ -8,14 +8,14 @@ importScripts('https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js
 importScripts('https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-compat.js');
 
 // ⚠️ APNA FIREBASE CONFIG YAHAN DAALO
-firebase.initializeApp({
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-});
+const firebaseConfig = {
+  apiKey: "AIzaSyCzaBmQbzgNcwl9x91hX0GUmDYsAZQI2Ko",
+  authDomain: "ms-esports-2fdd1.firebaseapp.com",
+  projectId: "ms-esports-2fdd1",
+  storageBucket: "ms-esports-2fdd1.firebasestorage.app",
+  messagingSenderId: "555450668311",
+  appId: "1:555450668311:web:0dd1181eaa7995b2091352"
+};
 
 const messaging = firebase.messaging();
 
